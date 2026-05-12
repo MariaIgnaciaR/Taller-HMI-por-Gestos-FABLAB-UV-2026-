@@ -197,5 +197,16 @@ Al finalizar el taller, el estudiante será capaz de:
 
 # Créditos
 
-Desarrollado para el **Fablab de la Universidad de Valparaíso**  
-*Módulo: Visión Artificial Aplicada*
+Proyecto desarrollado por:
+
+* Maria-Ignacia Rojas
+* Maximiliano Gaete
+
+**Estudiantes de Pregrado**  
+Carrera de Ingeniería Civil Biomédica  
+Universidad de Valparaíso
+
+---
+
+Desarrollado para el **Fablab de la Universidad de Valparaíso**
+
