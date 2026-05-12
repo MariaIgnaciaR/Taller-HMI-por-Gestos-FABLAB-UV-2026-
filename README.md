@@ -17,24 +17,21 @@ Desarrollar un sistema de control gestual funcional capaz de:
 
 # Requisitos del Sistema
 
-Para asegurar compatibilidad total durante el taller, se recomienda utilizar exactamente las siguientes versiones:
+Para asegurar compatibilidad durante el taller, se recomienda:
 
-* **Python:** `Python 3.11.9`
+* **Python:** 3.10+ (64-bit)
 * **Hardware:** Webcam integrada o USB.
 * **Sistema Operativo:** Windows 10/11 recomendado.
-
-**Importante:**  
-Versiones más recientes de Python (por ejemplo Python 3.12+) presentan incompatibilidades con algunas versiones de MediaPipe utilizadas en este taller.
 
 ---
 
 # Instalación del Entorno
 
-## 1. Instalar Python 3.11.9
+## 1. Instalar Python 3.10+
 
 Descargar desde:
 
-https://www.python.org/downloads/release/python-3119/
+https://www.python.org/downloads/
 
 Durante la instalación marcar:
 
@@ -49,7 +46,7 @@ Durante la instalación marcar:
 Abrir PowerShell en la carpeta del proyecto:
 
 ```bash
-py -3.11 -m venv .venv
+py -3 -m venv .venv
 ```
 
 ---
@@ -72,19 +69,13 @@ Si el entorno se activó correctamente, la terminal mostrará:
 
 # Instalación de Librerías
 
-**NO utilizar**:
+Instalar:
 
 ```bash
-pip install mediapipe
+pip install mediapipe opencv-python numpy
 ```
 
-ya que instala versiones recientes incompatibles con la API clásica utilizada en este taller.
-
-Instalar exactamente:
-
-```bash
-pip install mediapipe==0.10.9 opencv-python numpy
-```
+Nota: En la primera ejecucion, el modelo de mano se descarga automaticamente.
 
 ---
 
